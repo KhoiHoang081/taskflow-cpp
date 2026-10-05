@@ -1,0 +1,10 @@
+# Chay tai thu muc goc, sau khi build bang g++ tren Windows PowerShell:
+.\build\taskflow.exe add "Hoc vector trong C++" 3
+.\build\taskflow.exe add "Lam bai tap ma tran" 2
+.\build\taskflow.exe list
+.\build\taskflow.exe done 1
+.\build\taskflow.exe list pending
+.\build\taskflow.exe search "ma tran"
+.\build\taskflow.exe stats
+.\build\taskflow.exe reopen 1
+.\build\taskflow.exe remove 2

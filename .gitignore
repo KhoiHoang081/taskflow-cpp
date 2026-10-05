@@ -1,0 +1,8 @@
+/build*/
+/data/*.db
+*.exe
+*.o
+*.obj
+*.pdb
+.vs/
+.DS_Store
